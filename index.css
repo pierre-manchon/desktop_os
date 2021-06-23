@@ -1,0 +1,62 @@
+.desktop {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: white;
+	background-image: url("http://www.simonstalenhag.se/bilderbig/by_upload2_2560.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: 3;
+	display: block;
+	height:970px;
+	width:100%;
+	margin: 0;
+	padding: 0;
+}
+.main{
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: #333333;
+	position: absolute;
+}
+#clock{
+	font-family: "Segoe UI";
+	color: white;
+	z-index: 4;
+	text-align: right;
+}
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.35vh;
+	color: white;
+	position: relative;
+	z-index: 1;
+	height:100vh;
+	width:100vw;
+	margin: 0;
+	padding: 0;
+}
+textarea {
+	resize: none;
+	outline: none;
+	overflow: auto;
+	background-color: #333333;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.75vh;
+	color: white;
+}
+footer {
+	background-color: rgba(0, 0, 0, 0.75);
+	opacity: 50;
+	width: 100%;
+	height: 3vh;
+	bottom: 0;
+	left: 0;
+	padding-top: 0.5vh;
+	position: absolute;
+	z-index: 4;
+	text-align: center;
+}
